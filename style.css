@@ -1,0 +1,40 @@
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+div#board {
+    display: inline-block;
+    position: absolute;
+    top: 25em;
+    left: 46.5em;
+}
+
+button {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    font-size: 3em;
+    float: left;
+    color: black;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+button:hover {
+    background-color: #999999;
+}
+
+button:active {
+    background-color: black;
+    color: ivory;
+}
+
+button#one, button#two, button#four, button#five, button#seven, button#eight {
+    border-right: 1px;
+}
+
+button#four, button#five, button#six, button#seven, button#eight, button#nine {
+    border-top: 1px;
+}
