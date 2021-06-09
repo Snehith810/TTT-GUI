@@ -1,5 +1,5 @@
 # TTT-GUI
-This is game called as Tic Tac Toe. It has Graphical User Interface. 
+This is a game called as Tic Tac Toe. It has Graphical User Interface. 
 
 ## Rules of the game:
 Player one plays 'x' while player two plays 'o'. They need to pick a box where their symbol will be plotted. 
